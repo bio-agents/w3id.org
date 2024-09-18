@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+#Rewrite rules for OnAgentogy's vocabularies
+RewriteRule ^(.*) http://onagentogy.linkeddata.es/publish/$1 [R=302,L]
